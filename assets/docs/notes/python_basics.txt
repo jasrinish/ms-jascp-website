@@ -1,0 +1,18 @@
+Ms. Jaspreet's Computer Science Portal
+Topic: Introduction to Python Programming (Basics)
+
+Core Concepts:
+1. Variables & Data Types (Integers, Floats, Strings, Booleans, Lists, Tuples, Dictionaries)
+2. Operators (Arithmetic, Comparison, Logical, Assignment)
+3. Control Flow:
+   - Conditional Statements (if, elif, else)
+   - Loops (for loops, while loops)
+4. Standard Input/Output functions: input(), print()
+
+Example:
+# Program to calculate simple interest
+principal = float(input("Enter principal: "))
+rate = float(input("Enter rate of interest: "))
+time = float(input("Enter time period: "))
+si = (principal * rate * time) / 100
+print("Simple Interest =", si)

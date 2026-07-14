@@ -1,0 +1,15 @@
+Ms. Jaspreet's Computer Science Portal
+Laboratory Practical Manual - Data Structures & Algorithms (Python)
+
+List of Practical Programs:
+1. Linear Search and Binary Search implementations.
+2. Bubble Sort, Insertion Sort, and Selection Sort.
+3. Stack implementation using lists (push, pop, peek).
+4. Queue implementation using lists (enqueue, dequeue).
+5. Singly Linked List operations (insertion, deletion, traversal).
+6. Binary Search Tree (BST) traversal (Preorder, Inorder, Postorder).
+
+Submission Instructions:
+1. Complete all code challenges.
+2. Maintain lab records with program text, screen outputs, and analysis.
+3. Submit by November 30, 2026.

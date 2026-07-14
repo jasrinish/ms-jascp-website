@@ -1,0 +1,17 @@
+Ms. Jaspreet's Computer Science Portal
+Midterm Examination 2025 - Computer Science (Python & DBMS)
+Duration: 3 Hours
+Max Marks: 70
+
+Section A (Theory - 30 Marks)
+1. Differentiate between lists and tuples in Python. (5 Marks)
+2. Explain the purpose of PRIMARY KEY and FOREIGN KEY with SQL examples. (5 Marks)
+3. What is index in databases? How does it speed up queries? (5 Marks)
+4. Explain local and global scope of variables in Python. (5 Marks)
+5. Explain ACID properties in DBMS. (10 Marks)
+
+Section B (Coding - 40 Marks)
+6. Write a Python program to read a text file 'data.txt' and count the occurrences of the word 'the'. (10 Marks)
+7. Write a SQL query to create a table 'Student' with appropriate constraints. (10 Marks)
+8. Explain the output of the following nested loops. (10 Marks)
+9. Write a Python script to sort a list using Bubble Sort. (10 Marks)

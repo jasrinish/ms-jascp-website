@@ -1,0 +1,13 @@
+Ms. Jaspreet's Computer Science Portal
+Assignment 1: Python Control Flow & Functions
+Total Marks: 20
+Due Date: October 15, 2026
+
+Instructions:
+Write clean, commented Python scripts for the following problems.
+
+Questions:
+1. Write a program to find if a given year is a leap year. (5 Marks)
+2. Write a function `is_prime(n)` that returns True if n is prime, False otherwise. (5 Marks)
+3. Create a program that prints the Fibonacci sequence up to N terms. (5 Marks)
+4. Write a program to find the factorial of a number using recursion. (5 Marks)

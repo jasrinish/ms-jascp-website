@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Practicals - JASCP</title>
+  <meta name="description" content="View laboratory computer science practical assignments, coding problems, code templates, and references.">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  
+  <script src="assets/js/theme.js"></script>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/images/logo.png" alt="JASCP Logo" width="48" height="48">
+        <span class="logo-text">JASCP</span>
+      </a>
+      
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="qualifications.html">Qualifications</a></li>
+          <li><a href="subjects.html">Subjects</a></li>
+          <li><a href="notes.html">Notes</a></li>
+          <li><a href="assignments.html">Assignments</a></li>
+          <li><a href="question-papers.html">Papers</a></li>
+          <li><a href="practicals.html" class="active">Practicals</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle light/dark theme">
+          <svg class="moon-icon" viewBox="0 0 24 24"><path d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.5-.1 1 .2 1.2.7.2.5 0 1.1-.4 1.4-2.8 2-3.8 5.7-2.3 8.8 1.5 3 4.7 4.7 8 4.1.5-.1 1 .1 1.3.6.3.5.2 1.1-.2 1.4-1.9 1.9-4.5 2.8-7.2 2.8z"/></svg>
+          <svg class="sun-icon" viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-12.37c-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41zm-12.37 12.37c-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41z"/></svg>
+        </button>
+        <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container animate-fade-in-up">
+      <h1>Laboratory Practicals</h1>
+      <p>Solve compiler problems, download lab manuals, analyze outputs, and extract starting code blocks.</p>
+    </div>
+  </section>
+
+  <!-- Main Directory -->
+  <section class="section-padding" style="background-color: var(--bg-base);">
+    <div class="container">
+      
+      <!-- Top banner with download option -->
+      <div class="card animate-fade-in-up" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; margin-bottom: 40px; padding: 24px 32px;">
+        <div>
+          <h3 style="font-size: 1.2rem; margin-bottom: 6px;">Laboratory Manual (All Terms)</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0;">Get the complete practical manual document listing syllabus items and grading codes.</p>
+        </div>
+        <a href="assets/docs/practicals/lab_manual.txt" download class="btn btn-primary hover-glow">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; vertical-align: middle;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download Manual
+        </a>
+      </div>
+
+      <!-- Search Filters -->
+      <div class="search-filter-container animate-fade-in-up">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" id="search-input" placeholder="Search practicals by title or keywords...">
+        </div>
+        
+        <div class="filter-box">
+          <select id="subject-filter" class="filter-select">
+            <option value="all">All Subjects</option>
+            <option value="python">Python Programming</option>
+            <option value="dbms">Relational DBMS</option>
+            <option value="dsa">Data Structures</option>
+            <option value="web">Web Technologies</option>
+          </select>
+          
+          <select id="secondary-filter" class="filter-select">
+            <option value="all">All Difficulty Levels</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Cards Grid -->
+      <div class="grid-2" style="gap: 24px;">
+        <!-- Program 1 -->
+        <div class="card practical-card searchable-item animate-fade-in-up" data-search-text="practical 1 prime number checking control loops checks python program" data-subject="python" data-class="easy">
+          <div>
+            <div class="practical-meta">
+              <span class="badge badge-primary">Python</span>
+              <span class="badge badge-success">Easy</span>
+            </div>
+            <h3 class="practical-title">Practical 1: Prime Number Validator</h3>
+            <p class="practical-desc">Write a program to receive an integer input from the console and establish if the number is prime. Check edge values (e.g. less than 2).</p>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 20px; color: var(--text-muted);">
+              <strong>Expected Input:</strong> <code>17</code> <br>
+              <strong>Expected Output:</strong> <code>17 is a prime number</code>
+            </div>
+          </div>
+          
+          <div style="margin-bottom: 20px;">
+            <details style="border: 1px solid var(--border-color); border-radius: var(--radius-sm); overflow: hidden;">
+              <summary style="padding: 10px 16px; background-color: var(--primary-light); font-weight: 600; cursor: pointer; font-size: 0.9rem; user-select: none;">
+                Show Code Template
+              </summary>
+              <div class="practical-code-body">
+                <pre><code>def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+n = int(input("Enter number: "))
+if is_prime(n):
+    print(f"{n} is prime")
+else:
+    print(f"{n} is not prime")</code></pre>
+              </div>
+            </details>
+          </div>
+          
+          <div class="practical-footer">
+            <span style="font-size: 0.85rem; color: var(--text-light);">Lab Unit 1</span>
+            <a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 14px;">
+              Run Compiler
+            </a>
+          </div>
+        </div>
+
+        <!-- Program 2 -->
+        <div class="card practical-card searchable-item animate-fade-in-up delay-100" data-search-text="practical 2 binary search sorting arrays list dsa algorithmic" data-subject="dsa" data-class="medium">
+          <div>
+            <div class="practical-meta">
+              <span class="badge" style="background-color: hsl(280, 20%, 90%); color: var(--secondary);">Data Structures</span>
+              <span class="badge badge-primary">Medium</span>
+            </div>
+            <h3 class="practical-title">Practical 2: Binary Search in Sorted List</h3>
+            <p class="practical-desc">Implement the Binary Search algorithm on a pre-sorted list of integers. Retrieve the index value of the target key, or return -1 if missing.</p>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 20px; color: var(--text-muted);">
+              <strong>Expected Input:</strong> <code>List: [2, 5, 8, 12, 16], Key: 12</code> <br>
+              <strong>Expected Output:</strong> <code>Key found at index 3</code>
+            </div>
+          </div>
+          
+          <div style="margin-bottom: 20px;">
+            <details style="border: 1px solid var(--border-color); border-radius: var(--radius-sm); overflow: hidden;">
+              <summary style="padding: 10px 16px; background-color: var(--primary-light); font-weight: 600; cursor: pointer; font-size: 0.9rem; user-select: none;">
+                Show Code Template
+              </summary>
+              <div class="practical-code-body">
+                <pre><code>def binary_search(arr, target):
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+my_list = [2, 5, 8, 12, 16]
+res = binary_search(my_list, 12)
+print("Found at:", res)</code></pre>
+              </div>
+            </details>
+          </div>
+          
+          <div class="practical-footer">
+            <span style="font-size: 0.85rem; color: var(--text-light);">Lab Unit 3</span>
+            <a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 14px;">
+              Run Compiler
+            </a>
+          </div>
+        </div>
+
+        <!-- Program 3 -->
+        <div class="card practical-card searchable-item animate-fade-in-up delay-200" data-search-text="practical 3 sql constraints creating tables databases relational dbms schema queries" data-subject="dbms" data-class="medium">
+          <div>
+            <div class="practical-meta">
+              <span class="badge badge-success">Relational DBMS</span>
+              <span class="badge badge-primary">Medium</span>
+            </div>
+            <h3 class="practical-title">Practical 3: Schema DDL & Constraints</h3>
+            <p class="practical-desc">Write SQL syntax statements to design a table structure called 'Student' incorporating primary key rules, unique variables, and check limits.</p>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 20px; color: var(--text-muted);">
+              <strong>Constraint:</strong> student_id is PRIMARY KEY, email is UNIQUE, age >= 18.
+            </div>
+          </div>
+          
+          <div style="margin-bottom: 20px;">
+            <details style="border: 1px solid var(--border-color); border-radius: var(--radius-sm); overflow: hidden;">
+              <summary style="padding: 10px 16px; background-color: var(--primary-light); font-weight: 600; cursor: pointer; font-size: 0.9rem; user-select: none;">
+                Show SQL Template
+              </summary>
+              <div class="practical-code-body">
+                <pre><code>CREATE TABLE Student (
+    student_id INT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50),
+    email VARCHAR(100) UNIQUE,
+    age INT CHECK (age >= 18),
+    enrollment_date DATE DEFAULT CURRENT_DATE
+);</code></pre>
+              </div>
+            </details>
+          </div>
+          
+          <div class="practical-footer">
+            <span style="font-size: 0.85rem; color: var(--text-light);">Lab Unit 2</span>
+            <a href="https://sqliteonline.com/" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 14px;">
+              Run Compiler
+            </a>
+          </div>
+        </div>
+
+        <!-- Program 4 -->
+        <div class="card practical-card searchable-item animate-fade-in-up delay-300" data-search-text="practical 4 responsive glassmorphism web stylesheet flexbox design glass card" data-subject="web" data-class="easy">
+          <div>
+            <div class="practical-meta">
+              <span class="badge badge-primary">Web Tech</span>
+              <span class="badge badge-success">Easy</span>
+            </div>
+            <h3 class="practical-title">Practical 4: Responsive Glassmorphic Card</h3>
+            <p class="practical-desc">Construct a modern responsive card element using semantic HTML layout tags and CSS styling properties featuring a blurred backdrop-filter overlay.</p>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 20px; color: var(--text-muted);">
+              <strong>Core properties:</strong> <code>backdrop-filter: blur()</code>, <code>background: rgba()</code>
+            </div>
+          </div>
+          
+          <div style="margin-bottom: 20px;">
+            <details style="border: 1px solid var(--border-color); border-radius: var(--radius-sm); overflow: hidden;">
+              <summary style="padding: 10px 16px; background-color: var(--primary-light); font-weight: 600; cursor: pointer; font-size: 0.9rem; user-select: none;">
+                Show Code Template
+              </summary>
+              <div class="practical-code-body">
+                <pre><code>&lt;div class="glass-card"&gt;
+  &lt;h3&gt;Premium Glassmorphism&lt;/h3&gt;
+  &lt;p&gt;This card displays a blurry background.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.glass-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 24px;
+}
+&lt;/style&gt;</code></pre>
+              </div>
+            </details>
+          </div>
+          
+          <div class="practical-footer">
+            <span style="font-size: 0.85rem; color: var(--text-light);">Lab Unit 4</span>
+            <a href="https://codepen.io/pen/" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 14px;">
+              Run Compiler
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- No results banner -->
+      <div id="no-results" class="no-results" style="margin-top: 30px;">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-light); margin-bottom: 12px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <p>No matching practicals found. Try checking filters or modifying search keywords.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo-link" style="margin-bottom: 20px;">
+            <img src="assets/images/logo.png" alt="JASCP Logo" width="40" height="40">
+            <span class="logo-text" style="font-size: 1.3rem;">JASCP</span>
+          </a>
+          <p>An educational portal designed for Ms. Jaspreet's computer science classes, supplying chapter resources, assignments, lab works, and exam guidelines.</p>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="qualifications.html">Qualifications</a></li>
+            <li><a href="subjects.html">Subjects</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="notes.html">Class Notes</a></li>
+            <li><a href="assignments.html">Assignments</a></li>
+            <li><a href="question-papers.html">Past Papers</a></li>
+            <li><a href="practicals.html">Practicals</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col contact-info">
+          <h4>Get in Touch</h4>
+          <p>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            jaspreet@college.edu.in
+          </p>
+          <p>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Computer Science Lab, Campus II
+          </p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> JASCP. Created for Ms. Jaspreet's Classes.</p>
+        <p>Built with HTML, CSS, and Vanilla JS</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/search.js"></script>
+</body>
+</html>
